@@ -1,4 +1,7 @@
-_site
-.sass-cache
-node_modules
+.jekyll-metadata
+.sass-cache/
 _drafts
+_site/
+LICENSE
+node_modules
+Readme.md
