@@ -8,10 +8,11 @@ username: Mauricio
 user_description: Web Dev
 user_title: ...
 email: mod.and.op@gmail.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
+twitter_username: MODandOP
+github_username:  Mauricio Andrades
 gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+disqus_username: mauricioandrades
+
 
 # Build settings
 markdown: kramdown
@@ -31,8 +32,6 @@ compress_html:
 links:
   - title: Home
     url: /
-  - title: Series
-    url: /series
   - title: Tags
     url: /tags
   - title: About Me
