@@ -8,3 +8,7 @@ tags:
 categories:
 twitter_text:
 ---
+
+# Why #
+
+So I just finished my bootcamp in San Francisco and I need to publish a TON of work I haven't updated.
