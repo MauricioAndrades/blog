@@ -1,15 +1,15 @@
 var gulp = require('gulp'),
-  plumber = require('gulp-plumber'),
   browserSync = require('browser-sync'),
-  stylus = require('gulp-stylus'),
-  uglify = require('gulp-uglify'),
+  cp = require('child_process'),
   concat = require('gulp-concat'),
-  jeet = require('jeet'),
-  rupture = require('rupture'),
-  koutoSwiss = require('kouto-swiss'),
-  prefixer = require('autoprefixer-stylus'),
   imagemin = require('gulp-imagemin'),
-  cp = require('child_process');
+  jeet = require('jeet'),
+  koutoSwiss = require('kouto-swiss'),
+  plumber = require('gulp-plumber'),
+  prefixer = require('autoprefixer-stylus'),
+  rupture = require('rupture'),
+  stylus = require('gulp-stylus'),
+  uglify = require('gulp-uglify');
 
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
