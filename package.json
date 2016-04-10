@@ -1,7 +1,7 @@
 {
-  "name": "willjekylltemplate",
+  "name": "Mauricio Andrades Blog",
   "version": "1.0.0",
-  "description": "My jekyll blog template.",
+  "description": "Tech Blog built with Jekyll",
   "main": "gulpfile.js",
   "scripts": {
     "test": "test"
@@ -15,7 +15,7 @@
     "jekyll",
     "js"
   ],
-  "author": "Willian Justen de Vasconcellos",
+  "author": "Mauricio Andrades (based on Willian Justen de Vasconcellos theme)",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-stylus": "^0.4.0",
