@@ -9,6 +9,11 @@ categories: devOps
 twitter_text:
 ---
 
+# First Blog Post #
+
+It'll be here...
+
 {% highlight bash %}
-./initpost.sh -c Post Title
+  #code will look like this
+  jq '[paths(scalars)]' -S ~/Downloads/console.json |gsed -r 's/\],/\],\n/g'|pbcopy
 {% endhighlight %}
