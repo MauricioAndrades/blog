@@ -1,0 +1,16 @@
+<div class="container">
+    <nav id="navbarMenu">
+        <div class="toggleMenu">Menu</div>
+    <ul>
+    <ul>
+      {% for link in site.links %}
+        <li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+      <li><a class="feed" href="{{ site.url }}/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    </ul>
+
+    <a id="search" class="dosearch">
+        <svg class="icon-menu icon-search"><use xlink:href="#icon-search"></use></svg>
+    </a>
+</nav>
+</div>
