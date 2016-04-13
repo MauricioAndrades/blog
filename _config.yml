@@ -33,15 +33,18 @@ links:
   - title: Mauricio Andrades
     url: /
     id: home
-  - title: Tags
-    url: /tags
-    id: tags
   - title: About Me
     url: /about
     id: about
   - title: Resume
     url: /resume
     id: resume
+  - title: Tags
+    url: /tags
+    id: tags
+  - title: Posts
+    url: /posts
+    id: posts
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
