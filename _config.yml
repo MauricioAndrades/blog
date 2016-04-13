@@ -6,7 +6,7 @@ url: "http://mauricioandrades.com" # the base hostname & protocol for your site 
 # User settings
 username: Mauricio
 user_description: Web Dev, Data Sleuth, Font Aficionado
-user_title: ...
+user_title:
 email: mod.and.op@gmail.com
 twitter_username: MODandOP
 github_username:  MauricioAndrades
