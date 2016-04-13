@@ -2,13 +2,17 @@
 
 /*============NAVBAR============*/
 nav {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ostrich Sans', sans-serif;
+  background-color: black;
   line-height: 1;
+  font-size: 35px;
+  font-weight: 900;
   text-transform: uppercase;
   width: 100%;
   position: relative;
   /*============FIRST LEVEL============*/
 }
+
 nav :before, nav :after {
   content: " ";
   display: table;
@@ -20,6 +24,7 @@ nav ul {
   box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15);
   list-style: none;
   position: relative;
+  margin-bottom: 0px;
 }
 nav > ul {
   padding: 0;
@@ -33,6 +38,7 @@ nav ul:after {
 nav li {
   float: left;
   position: relative;
+  color: mod_yellow;
 }
 nav li a {
   list-style: none;
@@ -201,4 +207,16 @@ nav .active .submenu-button::after {
   nav .active .submenu-button::after {
     background-color: #fff;
   }
+}
+
+a.feed {
+  color: white
+}
+
+a {
+  color: white
+}
+
+li:nth-child(1) > a {
+  color: mod_yellow
 }
